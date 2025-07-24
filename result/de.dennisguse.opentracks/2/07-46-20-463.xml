@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<node index="0" text="" resource-id="" class="android.widget.FrameLayout" package="de.dennisguse.opentracks" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[684,155][1370,379]">
+  <node index="0" text="" resource-id="" class="android.widget.ListView" package="de.dennisguse.opentracks" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[684,183][1370,351]">
+    <node index="0" text="" resource-id="" class="android.widget.LinearLayout" package="de.dennisguse.opentracks" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[684,183][1370,351]">
+      <node index="0" text="Help" resource-id="de.dennisguse.opentracks:id/title" class="android.widget.TextView" package="de.dennisguse.opentracks" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[740,229][1314,305]" />
+    </node>
+  </node>
+</node>

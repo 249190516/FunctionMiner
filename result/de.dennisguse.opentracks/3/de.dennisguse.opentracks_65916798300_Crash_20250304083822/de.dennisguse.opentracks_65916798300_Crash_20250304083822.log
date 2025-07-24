@@ -1,0 +1,28 @@
+
+20250304083822
+crash:
+// CRASH: de.dennisguse.opentracks (pid 12573) (dump time: 2025-03-04 08:38:22
+// Version: 
+// Long Msg: java.lang.RuntimeException: Not supported
+// 	at de.dennisguse.opentracks.data.models.Marker$Id.toString(Marker.java:246)
+// 	at java.lang.String.valueOf(String.java:2896)
+// 	at java.lang.StringBuilder.append(StringBuilder.java:132)
+// 	at android.util.ArrayMap.toString(ArrayMap.java:795)
+// 	at android.os.Bundle.toString(Bundle.java:1260)
+// 	at java.lang.String.valueOf(String.java:2896)
+// 	at java.io.PrintWriter.println(PrintWriter.java:754)
+// 	at androidx.fragment.app.Fragment.dump(Fragment.java:2974)
+// 	at androidx.fragment.app.FragmentStore.dump(FragmentStore.java:419)
+// 	at androidx.fragment.app.FragmentManager.dump(FragmentManager.java:1303)
+// 	at androidx.fragment.app.FragmentActivity.dump(FragmentActivity.java:429)
+// 	at android.app.ActivityThread.handleDumpActivity(ActivityThread.java:3632)
+// 	at android.app.ActivityThread.access$2100(ActivityThread.java:199)
+// 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1742)
+// 	at android.os.Handler.dispatchMessage(Handler.java:106)
+// 	at android.os.Looper.loop(Looper.java:193)
+// 	at android.app.ActivityThread.main(ActivityThread.java:6669)
+// 	at java.lang.reflect.Method.invoke(Native Method)
+// 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+// 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+// crash end
+
