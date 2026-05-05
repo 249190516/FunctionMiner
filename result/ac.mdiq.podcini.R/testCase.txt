@@ -1,0 +1,52 @@
+1	Podcini TestCase
+1.1	STATE Subscriptions
+1.1.1	CLICK Open Menu
+1.1.1.1	CLICK Downloads
+1.1.1.1.1	ASSERT1in Downloads interface
+1.1.1.2	CLICK History
+1.1.1.2.1	ASSERT1in History interface
+1.1.1.3	CLICK Shared log
+1.1.1.3.1	ASSERT1in Shared log interface
+1.1.1.4	CLICK Statistics
+1.1.1.4.1	ASSERT1in Statistics interface
+1.1.2	CLICK Search
+1.1.2.1	CLICK search online
+1.1.2.1.1	ASSERT1in SearchResults interface
+1.1.3	CLICK sort
+1.1.3.1	CLICK Title
+1.1.3.1.1	ASSERT3 按Title顺序排列
+1.1.4	CLICK Fliter
+1.1.4.1	CLICK Confirm
+1.1.4.1.1	ASSERT3 按选项过滤
+1.1.5	CLICK More options
+1.1.5.1	CLICK Refresh
+1.1.5.1.1	ASSERT2in Refreshing
+1.1.6	CLICK Add podcaset
+1.1.6.1	CLICK feed item
+1.1.6.1.1	ASSERT1 OnlineFeed interface
+1.1.6.1.2	CLICK Subscribing
+1.1.6.1.2.1	CLICK open
+1.1.6.1.2.1.1	ASSERT1in FeedEpisodes
+1.1.6.1.3	CLICK Episodes
+1.1.6.1.3.1	CLICK any Episode
+1.1.6.1.3.1.1	ASSERT1in Episode interface
+1.1.6.2	CLICK more
+1.1.6.2.1	ASSERT1in Discover
+1.1.7	CLICK any podcast
+1.1.7.1	STATE FeedEpisodes
+1.1.7.1.1	CLICK Download
+1.1.7.1.1.1	CLICK Download
+1.1.7.1.1.1.1	ASSERT3 开始下载
+1.2	STATE FeedEpisodes
+1.2.1	CLICK Settings
+1.2.1.1	ASSERT1 FeedSettings
+1.2.2	CLICK any Episode 
+1.2.2.1	ASSERT1 EpisodeInfo
+1.3	STATE EpisodeInfo
+1.3.1	CLICK add to active queue
+1.3.1.1	ASSERT2in remove from active queue
+1.3.2	CLICK home button
+1.3.2.1	ASSERT1in Episodehome
+1.4	STATE Episodes
+1.4.1	CLICK any Episode
+1.4.1.1	ASSERT1 EpisodeInfo
