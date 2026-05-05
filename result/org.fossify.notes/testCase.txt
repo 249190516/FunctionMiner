@@ -1,0 +1,64 @@
+1	Notes TestCase
+1.1	STATE Task Note
+1.1.1	CLICK Add new checklist items
+1.1.1.1	CLICK add line
+1.1.1.1.1	ASSERT3 待办事项行增加
+1.1.1.2	CLICK name
+1.1.1.2.1	CLICK OK
+1.1.1.2.1.1	ASSERT2notin checkeditem
+1.1.2	CLICK checkList
+1.1.2.1	ASSERT2in checkeditem
+1.1.3	CLICK 更多按钮
+1.1.3.1	CLICK Rename note
+1.1.3.1.1	Click Title
+1.1.3.1.1.1	Click OK
+1.1.3.1.1.1.1	ASSERT3 note更名
+1.1.3.2	CLICK Delete checked items
+1.1.3.2.1	ASSERT2notin checked item
+1.1.3.3	CLICK Delete note
+1.1.3.3.1	CLICK Delete
+1.1.3.3.1.1	ASSERT3 当前Note被删除
+1.1.3.4	CLICK About
+1.1.3.4.1	ASSERT1in Abuot interace
+1.2	STATE Text Note
+1.2.1	CLICK Insert text here
+1.2.1.1	ASSERT2in undo
+1.2.1.2	CLICK undo
+1.2.1.2.1	ASSERT3 文本区域内容回撤
+1.2.2	CLICK open note
+1.2.2.1	CLICK General note
+1.2.2.1.1	ASSERT3 note切换为General note
+1.2.3	CLICK Create a new note
+1.2.3.1	CLICK Lable
+1.2.3.1.1	CLICK OK
+1.2.3.1.1.1	ASSERT3 新建Note
+1.2.4	CLICK more options
+1.2.4.1	CLICK Rename note
+1.2.4.1.1	Click Title
+1.2.4.1.1.1	Click OK
+1.2.4.1.1.1.1	ASSERT3 note更名
+1.2.4.2	CLICK Delete note
+1.2.4.2.1	CLICK Delete
+1.2.4.2.1.1	ASSERT3 当前Note被删除
+1.3	STATE Settings
+1.3.1	CLICK Customize colors
+1.3.1.1	CLICK close
+1.3.1.1.1	ASSERT2in Settings
+1.3.1.2	CLICK theme
+1.3.1.2.1	CLICK 任意主题
+1.3.1.2.1.1	CLICK save
+1.3.1.2.1.1.1	ASSERT3 保存颜色设置
+1.3.2	CLICK Customize widget colors
+1.3.2.1	CLICK OK
+1.3.2.1.1	ASSERT3 保存颜色设置
+1.3.3	CLICK font size
+1.3.3.1	CLICK %
+1.3.3.1.1	ASSERT3 设置保存
+1.3.4	CLICK Alignment
+1.3.4.1	CLICK Left/Center/Right
+1.3.4.1.1	ASSERT3 对应选项保存
+1.4	STATE About
+1.4.1	CLICK Frequently asked questions
+1.4.1.1	ASSERT1in FAQ
+1.4.2	CLICK Third party licences
+1.4.2.1	ASSERT1in License
